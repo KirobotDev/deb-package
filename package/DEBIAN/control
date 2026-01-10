@@ -1,0 +1,8 @@
+Package: fks
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Depends: nano, libc6, libstdc++6
+Maintainer: <kiro@kirosb.fr>
+Description: Fuck Society love me life 
