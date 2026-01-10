@@ -2,7 +2,7 @@
 
 **FKS** is a lightweight, dual-purpose utility for Linux (Debian/Ubuntu/Kali) that combines a stylish system information display (fetch) with an enhanced wrapper for the `nano` text editor.
 
-![FKS Screenshot]([https://via.placeholder.com/800x400?text=FKS+Screenshot+Here](https://i.postimg.cc/hvLnTjJy/Capture-d-ecran-du-2026-01-10-19-45-37.png))  
+![FKS Screenshot](https://i.postimg.cc/hvLnTjJy/Capture-d-ecran-du-2026-01-10-19-45-37.png)  
 *(Replace with a real screenshot of your terminal!)*
 
 ## Features
