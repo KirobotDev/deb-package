@@ -1,4 +1,4 @@
-# FKS (File Koding System)
+# FKS (Fuck Society)
 
 **FKS** is a lightweight, dual-purpose utility for Linux (Debian/Ubuntu/Kali) that combines a stylish system information display (fetch) with an enhanced wrapper for the `nano` text editor.
 
