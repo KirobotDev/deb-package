@@ -28,7 +28,7 @@ string exec(const char* cmd) {
     while (fgets(buffer.data(), buffer.size(), pipe.get()) != nullptr) {
         result += buffer.data();
     }
-    // Remove trailing newline
+
     if (!result.empty() && result.back() == '\n') {
         result.pop_back();
     }
@@ -140,7 +140,7 @@ string get_disk() {
         double pct = (used_gi / total_gi) * 100.0;
         
         stringstream ss;
-        ss << fixed << setprecision(2) << used_gi << " GiB / " << total_gi << " GiB (" << (int)pct << "%) - ext4"; // Assuming ext4 for simplicity or parse mount
+        ss << fixed << setprecision(2) << used_gi << " GiB / " << total_gi << " GiB (" << (int)pct << "%) - ext4"; 
         return ss.str();
     }
     return "Unknown";
